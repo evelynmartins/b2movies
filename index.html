@@ -1,41 +1,174 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B2movies</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <title>B2 Mamy Movies</title>
 </head>
-
 <body>
+    <nav>
 
-<nav>
-    <div id="logo">
+        <div id="logo">
+            <img src="./images/logo.png" alt="B2mamy filmes" />
+          </div>
+            
+        <div id=menu> 
+            <a href="galeria">Filmes</a>
+            <a href="destaque">Destaques do Mês</a>
+            <a href="Contato">Contato</a>
+        </div> 
     
-    <img src="./images/logo.png" alt="">
+    </nav>
 
+    <header> 
+
+        <p id="tituloCapa">b2-Movies</p>
+        <p id="subtituloCapa">O filme das mulheres empoderadas</p>
+        <button id="buttonCapa">Confira Agora</button>
+        
+    </header>
+    
+    <h1>filmes</h1>
+    <section class="Pesquisa">
+            
+        <div>
+            <input placeholder="Digite um filme aqui" />
+            <button>pesquisar</button>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeriaFilmes">
+        <div class="filmes">
+          <div class="divGaleria">
+            <img src="./images/filme_1.png" alt="Estrelas além do tempo" />
+            <h2>Estrelas além do tempo</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_2.jpg" alt="Estrelas além do tempo" />
+            <h2>Frida</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_3.jpg" alt="Estrelas além do tempo" />
+            <h2>Diana</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_4.jpg" alt="Estrelas além do tempo" />
+            <h2>Rainha de Kaiwe</h2>
+            <button>veja o trailler</button>
+          </div>
+  
+          <div class="divGaleria">
+            <img src="./images/filme_5.jpg" alt="Estrelas além do tempo" />
+            <h2>Kill Bill</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_6.jpg" alt="Estrelas além do tempo" />
+            <h2>Que horas ele volta?</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_7.jpg" alt="Estrelas além do tempo" />
+            <h2>Mad Max</h2>
+            <button>veja o trailler</button>
+          </div>
+          <div class="divGaleria">
+            <img src="./images/filme_8.png" alt="Estrelas além do tempo" />
+            <h2>Jackie Brown</h2>
+            <button>veja o trailler</button>
+          </div>
+        </div>
+      </section>   
+
+      <section class="frasedefeito"> 
+         
+        <div id="l1">
+            <h3>Por trás</h3>    
+        </div>
+                
+        <div id="l2">
+            <h3>de uma mulher</h3>    
+        </div>
+
+        <div id="l3">
+            <h3>bem resolvida,</h3>    
+        </div>
+
+        <div id="l4">
+            <h3>existe ela mesma.</h3>    
+        </div>
+
+      </section>
+
+      <div class="titdestaque">
+        <p>Destaque do Mês</p>
     </div>
+  
+      <section class="destaque">
 
 
-<div id="menu">
+        <div class="imgdestaque">
+            
+            <img src="./images/jackie.jpg" alt="">
+        </div>
+        
+        <div class="txtdestaque">
+            <div id="titulotxtdestaque"> 
+               <h1>Jackie Brown</h1>
+            </div>
+            
+            <div id="textodestaque">
+                 <p>Comissária de bordo trafica dinheiro
+                  a mando de um vendedor de armas.
+                  Quando dois policiais oferecem um
+                  acordo para que ela entregue o bandido,
+                  a mulher decide enganar todos os
+                  envolvidos, com um olho na liberdade
+                   e outro numa mala cheia de dinheiro.</p>
+                 
+                 
+            </div>
+            
+            <div id="botaodestaque">
+              <button>veja o trailler</button>
+            </div>
+       
+       
+       
+          </div>
 
-    <a href="galeria">Filmes</a>
-    <a href="destaque">Destaques do Mês</a>
-    <a href="contato">Contato</a>
+      </section>
+     
+      <div id="titcontato">
+        <p>Contato</p>
+      </div>
+ 
+      <section class="redetexto">
+      <div class="blocontato">
+ 
+        <div class="redes">
+           <img src="./images/facebook.png" alt="Facebook">
+           <img src="./images/email.png" alt="Facebook">
+           <img src="./images/youtube.png" alt="Facebook">
+        </div>
+       
+        <div class="txtcontato">
 
-</div>
+          <h2>Quer sugerir novos filmes?</h2>
+          <h2>manda email pra gente :)</h2>
+        
+          </div>
+      
+      
+      </div>
 
-</nav>
-
-<header> 
-
-    <p id="tituloCapa">b2-Movies</p>
-    <p id="subtituloCapa">O filme das mulheres empoderadas</p>
-    <button id="buttonCapa">Confira Agora</button>
-    
-</header>
-
-
+    </section>
 </body>
 </html>
