@@ -1,0 +1,93 @@
+body{
+
+    margin: 0;
+    border-left: 300px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+nav{
+
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: x-large;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    font-variant: normal;
+    color: black;
+    
+  }
+
+header{
+
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    height: 700px;
+    background-size: cover;
+    background-image: url(./images/mulhermaravilha.png);
+    justify-content: center;
+  
+    color: white;
+  }
+
+
+#tituloCapa{
+
+   font-size: 80px;
+   padding-left: 200px;
+}
+
+#logo{
+
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+       
+}
+
+nav img{
+
+    height: 70px;
+
+}
+
+.galeria{
+    background-color: teal;
+    height: 200px;
+}
+
+.destaque{
+
+    background-color: violet;
+    height: 300px;
+}
+
+.contato{
+
+    background-color: turquoise;
+    height: 300px;
+}
